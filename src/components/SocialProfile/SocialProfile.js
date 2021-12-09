@@ -17,7 +17,7 @@ export default function SocialProfile(props) {
       <div className={styles.description}>
         <div className={styles.position_foto}>
           <img
-            src={avatar ?? defaultFoto}
+            src={avatar && defaultFoto}
             alt={name}
             className={styles.avatar}
           />

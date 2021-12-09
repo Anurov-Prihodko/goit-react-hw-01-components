@@ -12,7 +12,7 @@ const FriendsElement = ({ id, avatar = defaultFoto, name, isOnline }) => {
       )}
       <img
         className={styles.avatar}
-        src={avatar ?? defaultFoto}
+        src={avatar && defaultFoto}
         alt={name}
         width="48"
       />
